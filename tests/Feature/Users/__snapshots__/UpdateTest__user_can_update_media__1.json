@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "firstName": "Michelle",
+    "lastName": "Arslan",
+    "fullName": "Michelle Arslan",
+    "profilePicture": {
+        "original": "http:\/\/localhost:8000\/storage\/1\/media-libraryfUvoDY",
+        "thumbXs": "http:\/\/localhost:8000\/storage\/1\/conversions\/media-libraryfUvoDY-thumb_xs.jpg",
+        "thumbSm": "http:\/\/localhost:8000\/storage\/1\/conversions\/media-libraryfUvoDY-thumb_sm.jpg",
+        "thumbMd": "http:\/\/localhost:8000\/storage\/1\/conversions\/media-libraryfUvoDY-thumb_md.jpg",
+        "thumbLg": "http:\/\/localhost:8000\/storage\/1\/conversions\/media-libraryfUvoDY-thumb_lg.jpg"
+    },
+    "email": "vandenbrink.milou50077@owow.io",
+    "roles": []
+}

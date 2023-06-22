@@ -1,0 +1,30 @@
+[
+    {
+        "key": "foo.bar",
+        "value": "baz",
+        "is_nested": false,
+        "description": null,
+        "tags": null
+    },
+    {
+        "key": "nested.notNested",
+        "value": "value",
+        "is_nested": false,
+        "description": null,
+        "tags": null
+    },
+    {
+        "key": "nested.key",
+        "value": "[\"one\",\"two\"]",
+        "is_nested": true,
+        "description": null,
+        "tags": null
+    },
+    {
+        "key": "nested.enums.roles",
+        "value": "[\"Admin\",\"Moderator\"]",
+        "is_nested": true,
+        "description": null,
+        "tags": null
+    }
+]

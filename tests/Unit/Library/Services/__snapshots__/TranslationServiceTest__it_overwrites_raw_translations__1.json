@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "key": "test.key",
+    "value": "Old value",
+    "description": "Test description",
+    "tags": [
+        "test"
+    ],
+    "is_nested": true
+}

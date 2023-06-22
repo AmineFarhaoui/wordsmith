@@ -1,0 +1,9 @@
+{
+    "key": "test.key",
+    "value": "Test value",
+    "description": "Test description",
+    "tags": [
+        "test"
+    ],
+    "is_nested": true
+}

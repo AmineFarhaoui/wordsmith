@@ -1,0 +1,71 @@
+version: '3'
+
+networks:
+  laravel:
+
+services:
+  nginx:
+    image: nginx:stable
+    container_name: wordsmith_nginx
+    ports:
+      - ${APP_PORT:-8000}:80
+    volumes:
+      - .:/var/www/html:cached
+      - ./docker/nginx.conf:/etc/nginx/conf.d/default.conf:delegated
+    depends_on:
+      - php
+      - mysql
+    networks:
+      - laravel
+
+  mysql:
+    image: mysql/mysql-server:8.0
+    container_name: wordsmith_mysql
+    restart: unless-stopped
+    ports:
+      - ${DB_PORT_LOCAL:-33060}:3306
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    networks:
+      - laravel
+
+  mysql_testing:
+    image: mysql/mysql-server:8.0
+    container_name: wordsmith_mysql_testing
+    tmpfs: /var/lib/mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_DATABASE: ${DB_DATABASE}_testing
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    networks:
+      - laravel
+
+  php:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: wordsmith_php
+    tty: true
+    environment:
+      - COMPOSER_MEMORY_LIMIT=-1
+    volumes:
+      - .:/var/www/html:cached
+    networks:
+      - laravel
+
+  # Enable this if you need to preview emails.
+  # mailhog:
+  #   image: 'mailhog/mailhog:latest'
+  #   container_name: wordsmith_mailhog
+  #   ports:
+  #       - '${FORWARD_MAILHOG_PORT:-1025}:1025'
+  #       - '${FORWARD_MAILHOG_DASHBOARD_PORT:-8025}:8025'
+  #   networks:
+  #       - laravel

@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "key": "test.key",
+    "values": [
+        {
+            "language": "en",
+            "value": "English value"
+        },
+        {
+            "language": "nl",
+            "value": "Dutch value"
+        }
+    ],
+    "description": "Test description",
+    "tags": [
+        "foo",
+        "test"
+    ],
+    "is_nested": true
+}

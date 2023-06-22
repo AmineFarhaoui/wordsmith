@@ -1,0 +1,11 @@
+{
+    "apiToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2F1dGgvcmVmcmVzaCIsImlhdCI6MTY1NDU5OTc3OCwiZXhwIjoxNjU3MTkxNzc4LCJuYmYiOjE2NTQ1OTk3NzgsImp0aSI6Ik1nbFkzOGVNdzduZ2JIVDciLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.quwj_K6AiNOTN_MF913_3dpfZNX0f-ULX9nkTRtPIRs",
+    "user": {
+        "id": 1,
+        "firstName": "Mae",
+        "lastName": "Homenick",
+        "fullName": "Mae Homenick",
+        "email": "matteo.cremin15730@owow.io",
+        "roles": []
+    }
+}

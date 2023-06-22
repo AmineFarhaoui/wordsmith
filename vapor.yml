@@ -1,0 +1,40 @@
+id: 46508
+name: wordsmith
+asset-domain: assets.owow.codes
+default-environment: staging
+environments:
+    production:
+        domain: wordsmith.owow.codes
+        memory: 1024
+        cli-memory: 512
+        runtime: 'php-8.2:al2'
+        database: wordsmith-db-0
+        storage: wordsmith-production-0
+        # We don't want high costs when being DDoSed
+        concurrency: 10
+        queue-concurrency: 25
+        build:
+            - 'composer install --no-dev'
+            - 'php artisan nova:install && rm app/Nova/Resource.php app/Nova/User.php'
+            - 'php artisan event:cache'
+            - 'yarn && yarn production && rm -rf node_modules'
+        deploy:
+            - 'php artisan migrate --force'
+    staging:
+        domain: wordsmith-staging.owow.codes
+        memory: 1024
+        cli-memory: 512
+        runtime: 'php-8.2:al2'
+        database: wordsmith-db-0
+        database-user: staging
+        storage: wordsmith-staging
+        # We don't want high costs when being DDoSed
+        concurrency: 10
+        queue-concurrency: 25
+        build:
+            - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install'
+            - 'php artisan nova:install && rm app/Nova/Resource.php app/Nova/User.php'
+            - 'php artisan event:cache'
+            - 'yarn && yarn production && rm -rf node_modules'
+        deploy:
+            - 'php artisan migrate --force'

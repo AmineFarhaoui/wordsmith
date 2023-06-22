@@ -1,0 +1,38 @@
+[
+    {
+        "key": "some.translationKey",
+        "value": "Some translation key",
+        "is_nested": false,
+        "description": null,
+        "tags": [
+            "web"
+        ]
+    },
+    {
+        "key": "some.translationKey",
+        "value": "Een vertaalsleutel",
+        "is_nested": false,
+        "description": null,
+        "tags": [
+            "web"
+        ]
+    },
+    {
+        "key": "foo.bar.baz",
+        "value": "Foo bar baz",
+        "is_nested": false,
+        "description": null,
+        "tags": [
+            "api"
+        ]
+    },
+    {
+        "key": "foo.bar.baz",
+        "value": "Foo bar baz",
+        "is_nested": false,
+        "description": null,
+        "tags": [
+            "api"
+        ]
+    }
+]

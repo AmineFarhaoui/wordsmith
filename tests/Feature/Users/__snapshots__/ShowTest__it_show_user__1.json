@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "firstName": "Bram",
+    "lastName": "van de Pol",
+    "fullName": "Bram van de Pol",
+    "profilePicture": {
+        "original": "http:\/\/localhost:8000\/storage\/1\/some_image",
+        "thumbXs": "http:\/\/localhost:8000\/storage\/1\/conversions\/some_image-thumb_xs.jpg",
+        "thumbSm": "http:\/\/localhost:8000\/storage\/1\/conversions\/some_image-thumb_sm.jpg",
+        "thumbMd": "http:\/\/localhost:8000\/storage\/1\/conversions\/some_image-thumb_md.jpg",
+        "thumbLg": "http:\/\/localhost:8000\/storage\/1\/conversions\/some_image-thumb_lg.jpg"
+    },
+    "email": "turan.rens72995@owow.io"
+}

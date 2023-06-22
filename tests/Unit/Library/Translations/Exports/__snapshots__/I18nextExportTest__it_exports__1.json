@@ -1,0 +1,24 @@
+{
+    "foo": {
+        "bar": "Voluptatem assumenda adipisci vero eum minima."
+    },
+    "amine": {
+        "the": {
+            "rapper": "Iusto aut facilis excepturi corrupti temporibus libero explicabo."
+        }
+    },
+    "bar": {
+        "baz": [
+            "Admin",
+            "Moderator"
+        ]
+    },
+    "eminem": {
+        "the": {
+            "rapper": [
+                "Admin",
+                "Moderator"
+            ]
+        }
+    }
+}

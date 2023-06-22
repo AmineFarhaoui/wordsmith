@@ -1,0 +1,6 @@
+*
+!public/
+!seeder/
+!seeder/images
+!seeder/images/*
+!.gitignore

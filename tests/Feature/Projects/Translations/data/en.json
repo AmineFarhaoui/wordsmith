@@ -1,0 +1,793 @@
+{
+    "academy": {
+        "actions": {
+            "viewAll": "View all",
+            "watchIntroduction": "Watch introduction"
+        },
+        "all": {
+            "nav": "All"
+        },
+        "courses": {
+            "nav": "Courses",
+            "overlay": "{n} lessons · {length} | {n} lesson · {length} | {n} lessons · {length}",
+            "subtitle": "Improve your skills with a single lesson",
+            "time": "{0}h {1}m",
+            "title": "Courses"
+        },
+        "inProgress": {
+            "title": "Continue your courses",
+            "subtitle": "Finish what you started"
+        },
+        "index": {
+            "by": "By",
+            "title": "Academy"
+        },
+        "inspirations": {
+            "nav": "Inspiration",
+            "title": "Inspiration",
+            "subtitle": "Learn from the best"
+        },
+        "introduction": {
+            "actions": {
+                "more": "More information",
+                "watch": "Watch introduction"
+            },
+            "and": "and",
+            "new": "New",
+            "thoughtBy": "Thought by {0}"
+        },
+        "scripts": {
+            "by": "By",
+            "nav": "Videos",
+            "videosCount": "{0} videos"
+        },
+        "templates": {
+            "nav": "Courses",
+            "templatesCount": "{0} courses",
+            "title": "Explore other courses"
+        }
+    },
+    "actions": {
+        "back": "Back",
+        "backToHome": "Bring me back to a safe place",
+        "backToOverview": "Back to overview",
+        "cancel": "Cancel",
+        "clickToLoadMore": "Click to load more",
+        "close": "Close",
+        "closeMenu": "Close menu",
+        "confirm": "Confirm",
+        "confirmAndContinue": "Confirm & Continue",
+        "download": "Download",
+        "explore": "Explore",
+        "letsGo": "Let's go!",
+        "next": "Next",
+        "ok": "Ok",
+        "open": "Open",
+        "openMenu": "Open menu",
+        "remove": "Remove",
+        "search": "Search",
+        "send": "Send",
+        "skip": "Skip"
+    },
+    "auth": {
+        "actions": {
+            "login": "Log in",
+            "resetPassword": "Reset password",
+            "sendRequest": "Send request",
+            "signup": "Sign up"
+        },
+        "email": "Email address",
+        "forgotPassword": {
+            "body": "Forgot your password? Please fill in your email address below. We will send an email from which you can change your password.",
+            "success": "An email has been sent",
+            "title": "Request password"
+        },
+        "login": {
+            "forgotPassword": "Forgot password?",
+            "noAccount": "Don't have an account?",
+            "title": "Log in"
+        },
+        "password": "Password",
+        "resetPassword": {
+            "title": "Reset password",
+            "confirm": "Confirm password"
+        },
+        "signup": {
+            "title": "Sign up"
+        }
+    },
+    "comments": {
+        "actions": {
+            "deleteComment": "Delete comment",
+            "editComment": "Edit comment",
+            "inviteEmails": "Invite emails"
+        },
+        "invite": {
+            "body": "The following mentioned emails don't have access to this pitch. You can invite them to the pitch and set the access level.",
+            "title": "Invite users to the pitch"
+        },
+        "mentions": {
+            "inviteUser": "Invite user"
+        },
+        "placeholder": "Type here"
+    },
+    "dashboard": {
+        "actions": {
+            "exploreCourses": "Explore our courses"
+        },
+        "index": {
+            "announcement": "Announcement",
+            "gettingStarted": "Getting started",
+            "helloAndWelcomeTo": "Hello {0} and welcome to {1}",
+            "improveYourSkills": "Improve your pitching skills",
+            "pitchyAcademy": "The Pitchy Academy",
+            "programAgenda": "Program agenda",
+            "title": "Dashboard"
+        }
+    },
+    "enums": {
+        "pitchExportType": {
+            "PDF": "PDF",
+            "TXT": "Text"
+        },
+        "role": {
+            "ADMIN": "Team lead",
+            "COACH": "Coach",
+            "EDITOR": "Editor",
+            "PITCHER": "Pitcher"
+        },
+        "sharePermissions": {
+            "COMMENT": "comment",
+            "EDIT": "edit",
+            "VIEW": "view"
+        },
+        "slideType": {
+            "GOOGLE_SLIDES": "Google Slides",
+            "KEYNOTE": "Keynote",
+            "POWER_POINT": "PowerPoint"
+        }
+    },
+    "export": {
+        "as": "Export as {0}",
+        "export": "Export"
+    },
+    "headers": {
+        "createdAt": "Created at",
+        "deadline": "Deadline",
+        "email": "Email",
+        "joined": "Joined",
+        "length": "Length",
+        "name": "Name",
+        "pitch": "Pitch",
+        "pitchMoment": "Moment",
+        "reviewableSince": "Submitted at",
+        "team": "Team",
+        "type": "Type",
+        "updatedAt": "Last modified",
+        "user": "Owner"
+    },
+    "invitations": {
+        "actions": {
+            "getStarted": "Get started",
+            "next": "Next"
+        },
+        "alreadyAccepted": "This invitation has already been accepted.",
+        "alreadyHaveAccount": "Already have an account?",
+        "body": "You've been invited to Pitchy, thé platform that helps you and your organisation create with winning pitches!",
+        "createPassword": "Create a password",
+        "loginBeforeAccept": "You need to be logged in before the invitation can be accepted.",
+        "title": "Hi there!"
+    },
+    "notifications": {
+        "actions": {
+            "markAllRead": "Mark all as read"
+        },
+        "missed": {
+            "body": "You received some notifications while in focus mode. Go to the home page to see them.",
+            "title": "You have missed {0} notifications"
+        },
+        "titles": {
+            "comment": "Someone placed a comment",
+            "invitation": "Someone invited you",
+            "reply": "Someone replied to a comment"
+        },
+        "body": "{0} in ",
+        "noResults": "No notifications yet, get busy! 👋",
+        "title": "Notifications"
+    },
+    "onboarding": {
+        "actions": {
+            "continue": "Continue",
+            "letsGo": "Let's go",
+            "skipForNow": "Skip for now"
+        },
+        "steps": {
+            "createPitchMoment": "Create your first pitch moment",
+            "createProfile": "Create your personal profile",
+            "createOrganisationProfile": "Create your organisation profile",
+            "createTeamProfile": "Create your team profile",
+            "inviteTeam": "Invite your first team",
+            "readyToGo": "Ready to go!",
+            "startPitch": "Start and edit your first pitch subject",
+            "watchPitchIntroduction": "Watch the explanation video"
+        },
+        "title": "Let's get started!"
+    },
+    "organisations": {
+        "actions": {
+            "addPitchMoment": "Add Pitch moment"
+        },
+        "create": {
+            "body": "We'll sign you in or create an account if you don't have one yet.",
+            "title": "Organisation details"
+        },
+        "index": {
+            "noPitchMomentsBody": "Create your program by adding all the upcoming pitch moments for your team within your program.",
+            "noPitchMomentsTitle": "Add pitch moments to your program",
+            "noProgramError": "You are not in a program to which you can add pitch moments",
+            "pitches": "Pitches",
+            "programDetails": "Program details",
+            "teams": "Teams",
+            "title": "Pitch moments"
+        },
+        "invite": {
+            "body": "Send an invite to all the team members.",
+            "title": "Invite organisation members"
+        },
+        "logo": "Logo",
+        "name": "Organisation name",
+        "program": "Program name"
+    },
+    "pitch": {
+        "actions": {
+            "academy": "Academy",
+            "createFirstPitch": "Create your first Pitch",
+            "dashboard": "Dashboard",
+            "deletePitch": "Delete pitch",
+            "iAmSureDelete": "I'm sure, delete pitch",
+            "myScripts": "My Scripts",
+            "newPitch": "Start new pitch",
+            "pitches": "Pitches",
+            "share": "Share",
+            "team": "Team",
+            "templates": "Templates",
+            "watchProductTour": "Watch product tour",
+            "options": "Options",
+            "program": "Program"
+        },
+        "create": {
+            "createPitch": "Create pitch",
+            "draft": "Draft mode",
+            "length": "Length of Pitch",
+            "name": "Name your Pitch",
+            "pitchMoment": "Pitch moment",
+            "purpose": "Purpose of Pitch",
+            "template": "Type of Pitch",
+            "title": "Set up your pitch"
+        },
+        "deletePitch": {
+            "body": "Are you sure you want to delete this pitch?\nMake sure you don't accidentally lose your million dollar pitch!",
+            "title": "Delete Pitch"
+        },
+        "edit": {
+            "counters": {
+                "amountOfMinutes": "Time:",
+                "amountOfWords": "Total:"
+            },
+            "wordCount": {
+                "aBitMuch": "A bit much!",
+                "almostThere": "Almost there!",
+                "keepGoing": "Keep going!",
+                "letsStart": "Let's start!",
+                "perfect": "Perfect!",
+                "stillNice": "Still nice!",
+                "writeLess": "Write less!"
+            },
+            "subjects": "Chapters",
+            "length": "Length of Pitch",
+            "name": "Name your Pitch",
+            "purpose": "Purpose of Pitch",
+            "template": "Type of Pitch",
+            "title": "Set up your pitch",
+            "updatePitch": "Update pitch"
+        },
+        "filters": {
+            "all": "All",
+            "drafts": "Drafts",
+            "hasPitchMoment": "Program related",
+            "shared": "Shared with me"
+        },
+        "index": {
+            "body": {
+                "templates": "Use more than 20+ proven pitch templates",
+                "videos":"With each template come different video tips & tricks",
+                "collaborate":"And collaborate with your team through real-time commenting"
+            },
+            "createPitchTitle": "Prepare winning pitches in a fraction of the usual spent time",
+            "draft": "Draft",
+            "noOwner": "No owner",
+            "pitches": "Pitches",
+            "shared": "Shared"
+        },
+        "rearrangeSubjects": {
+            "actions": {
+                "gotIt": "Thanks, I got this!"
+            },
+            "body": "Drag the subject blocks to a different place or skip subjects entirely by toggling visibility.",
+            "title": "Rearrange subject order"
+        },
+        "share": {
+            "actions": {
+                "done": "Done",
+                "remove": "Remove",
+                "sendInvite": "Send invite"
+            },
+            "addPeople": "Add people",
+            "canPermission": "Can {0}",
+            "setAccessLevel": "Set access level",
+            "title": "Share pitch"
+        },
+        "tooltip": {
+            "length": "Select the length of your pitch here, keep in mind the average speaker pitches 110 words a minute.",
+            "purpose": "Target of your pitch & tone of voice.",
+            "template": "The event type the pitch is for."
+        }
+    },
+    "pitchMoments": {
+        "actions": {
+            "addPitchMoment": "Add Pitch moment",
+            "clickToLoadMoreTeams": "Click to load more teams",
+            "gotIt": "Got it, let's get going!",
+            "readBriefing": "Read briefing",
+            "updateDetails": "Update details",
+            "viewBriefing": "View briefing"
+        },
+        "create": {
+            "title": "New Pitch Moment"
+        },
+        "edit": {
+            "title": "Program details"
+        },
+        "form": {
+            "deadlineBeforePresentation": "The deadline date must be before the presentation date",
+            "deadlines": "Deadlines",
+            "deadlineDate": "Deadline date",
+            "name": "Pitch moment name",
+            "presentationDate": "Presentation date",
+            "programDetails": "Program details",
+            "typeOfPitch": "Type of pitch",
+            "writePitchMoment": "Write up your pitch moment"
+        },
+        "index": {
+            "deadline": "Deadline",
+            "noPitchMomentsBody": "Your program currently does not have any pitch moments. Reach out to the organisation if you think this is a mistake",
+            "noPitchMomentsTitle": "There are no pitch moments",
+            "noScriptSubmitted": "No script submitted",
+            "scriptSubmitted": "Script submitted",
+            "title": "Pitch moments"
+        },
+        "pitches": {
+            "title": "Pitch moments"
+        },
+        "show": {
+            "details": {
+                "beforeYouStart": "Before you start",
+                "briefing": "Briefing",
+                "deadlineDate": "Submission deadline",
+                "optionalSubjects": "Optional subjects",
+                "pitchType": "Type of pitch",
+                "presentationDate": "Presentation date",
+                "requiredSubjects": "Required subjects",
+                "title": "Details",
+                "watchVideo": "Watch video by program director"
+            },
+            "slides": {
+                "title": "Slides starter templates"
+            },
+            "teamSubmissions": {
+                "noPitches": "No other submissions yet",
+                "title": "Team submissions"
+            },
+            "templates": {
+                "title": "Prepare at the academy"
+            },
+            "title": "Pitch moments"
+        }
+    },
+    "programs": {
+        "actions": {
+            "addPitchMoment": "Add Pitch moment"
+        },
+        "index": {
+            "noPitchMomentsBody": "Create your program by adding all the upcoming pitch moments for your team within your program.",
+            "noPitchMomentsTitle": "Add pitch moments to your program",
+            "noProgramError": "You are not in a program to which you can add pitch moments",
+            "subtitle": "Pitch moments",
+            "title": "Program details"
+        }
+    },
+    "resources": {
+        "actions": {
+            "backToAcademyOverview": "Academy overview",
+            "backToOverview": "Back to overview",
+            "downloadKeynote": "Download .key file",
+            "downloadPowerPoint": "Download .pptx file",
+            "openGoogleSlides": "Open in Google Slides",
+            "seeDeck": "See pitch deck",
+            "seeVideo": "See video"
+        },
+        "index": {
+            "tips": "Tips"
+        },
+        "view": {
+            "slidesCount": "{0} slides"
+        }
+    },
+    "script": {
+        "disableChapter": "Disable chapter",
+        "enableChapter": "Enable chapter",
+        "focusTooltip": "Turn focus mode off to show tips and tricks",
+        "placeholder": "Begin your subject...",
+        "resource": {
+            "comments": "Comments",
+            "tips": "Tips",
+            "videos": "Videos"
+        },
+        "tooltip": "Start your pitch"
+    },
+    "sentences": {
+        "andOthers": "And {0} others",
+        "inputEmailSeparatedBy": "You can input several email addresses separated by space",
+        "pageNotFound": "We couldn't find the page you were looking for",
+        "playVideo": "Play video",
+        "showExamples": "Show examples",
+        "timeAgo": "{0} ago"
+    },
+    "teamUsers": {
+        "actions": {
+            "changeName": "Change name",
+            "makeTeamCoach": "Make team coach",
+            "makeTeamLeader": "Make team leader",
+            "makeTeamPitcher": "Make team pitcher",
+            "removeTeamCoach": "Remove team coach role",
+            "removeTeamLeader": "Remove team leader role",
+            "removeTeamPitcher": "Remove team pitcher role",
+            "removeUserFromTeam": "Remove user from team",
+            "renameUser": "Rename member"
+        },
+        "edit": {
+            "firstName": "First name",
+            "lastName": "Last name",
+            "renameTitle": "Rename member"
+        },
+        "removeUser": {
+            "body": "Are you sure you want to remove this member?\nThis action cannot be undone",
+            "title": "Remove member"
+        },
+        "words": {
+            "noResults": "No team members yet, invite them now! 👋"
+        }
+    },
+    "teams": {
+        "actions": {
+            "addMembers": "Add members (optional)",
+            "addTeam": "Add team",
+            "cancelAddMembers": "Cancel add members",
+            "inviteMembers": "Invite members",
+            "sendInvite": "Send invite",
+            "updateDetails": "Update details"
+        },
+        "assignPitcher": {
+            "body": "Let us know, now or later, who within your startup team will take the stage and pitch for the big bucks?!",
+            "selectUser": "Select member",
+            "title": "Assign team pitcher"
+        },
+        "create": {
+            "body": "We'll sign you in or create an account if you don't have one yet.",
+            "title": "Team details"
+        },
+        "edit": {
+            "title": "Team",
+            "members": {
+                "inviteTitle": "Invite team members",
+                "memberEmails": "Invite new members by adding their email address",
+                "nav": "Members",
+                "title": "Members"
+            },
+            "pitches": {
+                "nav": "Pitches"
+            },
+            "profile": {
+                "nav": "Team details",
+                "titleOrganisation": "Organisation Details",
+                "titleTeam": "Team Details"
+            }
+        },
+        "form": {
+            "logo": "Logo",
+            "maxLeaders": "Max 2 people",
+            "name": "Team name",
+            "teamLeaders": "Team leaders",
+            "teamMembers": "Team members"
+        },
+        "index": {
+            "noProgramError": "You are not in a program to which you can add teams",
+            "noTeamsBody": "Create your program by inviting all the teams of your program.",
+            "noTeamsTitle": "Invite all teams to your program",
+            "title": "Participating teams"
+        },
+        "invite": {
+            "actions": {
+                "send": "Send invites and start",
+                "skip": "Skip & Add later"
+            },
+            "allowEmail": "Allow anyone with an {0} email to join this workspace automatically",
+            "body": "Send an invite to all the team members.",
+            "title": "Invite members"
+        },
+        "logo": "Logo",
+        "name": "Team name"
+    },
+    "templates": {
+        "actions": {
+            "backToOverview": "Back to overview",
+            "templates": "Templates",
+            "viewAll": "View all",
+            "downloadTemplate": "Download template"
+        },
+        "index": {
+            "byUser": "By {0}",
+            "courseContent": "Course table of content",
+            "courseCurriculum": "Course curriculum",
+            "curriculum": "Curriculum",
+            "durationMinutes": "{0} mins",
+            "faq": "Frequently asked questions",
+            "lessonsCount": "{0} lessons",
+            "meetYourCoaches": "Meet your coaches",
+            "noCoaches": "No coaches selected",
+            "noMediaBody": "This course currently does not have any videos available to be watched. They will be added soon!",
+            "overview": "Overview",
+            "slidesCount": "{0} slides",
+            "startCourse": "Start Course",
+            "title": "Templates",
+            "yourCoaches": "Your coaches",
+            "youMightAlsoLike": "You might also like",
+            "videosCount": "{0} videos",
+            "emailTemplatesCount": "{0} email templates",
+            "onePagerTemplatesCount": "{0} one-pager templates"
+        },
+        "script": {
+            "completedCount": "{0}% Complete",
+            "durationMinutes": "{0} mins",
+            "title": "{0} Videos",
+            "script": "Script",
+            "videosCount": "{0} videos"
+        },
+        "view": {
+            "videosCount": "{0} Videos"
+        },
+        "all": {
+            "nav": "All",
+            "subtitle": "Deliver your next pitch faster with our templates. They're fully customisable, profesionally designed, and delightfully easy to use."
+        },
+        "onePagers": {
+            "nav": "One-Pagers",
+            "title": "One-Pagers",
+            "subtitle": "Improve your skill with a single lesson"
+        },
+        "pitchDecks": {
+            "nav": "Pitch Decks",
+            "title": "Pitch Decks",
+            "subtitle": "Tried and tested pitch templates to help your idea get noticed - and funded",
+            "similarPitchDeckTemplates": "Similar pitch deck templates",
+            "similarOnePagerTemplates": "Similar one-pager templates",
+            "similarTemplates": "Similar templates"
+        },
+        "followUpDecks": {
+            "nav": "Follow-Up Decks",
+            "title": "Follow-Up Decks",
+            "subtitle": "Templates to help your idea"
+        },
+        "pitchScripts": {
+            "nav": "Pitch Scripts",
+            "title": "Pitch Scripts",
+            "subtitle": ""
+        },
+        "emailScripts": {
+            "nav": "Email Scripts",
+            "title": "Email Scripts",
+            "subtitle": ""
+        },
+        "overview": {
+            "nav": "Overview"
+        },
+        "curriculum": {
+            "nav": "Curriculum"
+        },
+        "coaches": {
+            "nav": "Coaches"
+        },
+        "templates": {
+            "nav": "Templates"
+        },
+        "faq": {
+            "nav": "FAQ"
+        }
+    },
+    "themeBuilder": {
+        "actions": {
+            "nextStep": "Next",
+            "prevStep": "Previous",
+            "saveBranding": "Save theme"
+        },
+        "buttonsAndForms": {
+            "buttonsTitle": "Button variations",
+            "inputsTitle": "Input fields",
+            "title": "Buttons and Input Fields"
+        },
+        "favicon": {
+            "title": "Favicon Image"
+        },
+        "fonts": {
+            "actions": {
+                "clearFont": "Clear Font",
+                "externalFont": "Google Font",
+                "loadFont": "Load Font",
+                "uploadFont": "Font Files"
+            },
+            "external": {
+                "googleFonts": "Google Fonts",
+                "helpText": "For now, Pitchy only supports an external font from",
+                "label": "External font url",
+                "placeholder": "https://fonts.googleapis.com/css2?family=???&display=swap"
+            },
+            "fontWeights": {
+                "300": "Select Light font",
+                "400": "Select Regular font",
+                "500": "Select Medium font",
+                "600": "Select Semi Bold font",
+                "700": "Select Bold font",
+                "variable": "Select Variable font"
+            },
+            "name": {
+                "label": "Font name (Case sensitive)",
+                "placeholder": "Times New Roman"
+            },
+            "upload": {
+                "fontWeights": "Upload separate font weights instead",
+                "variable": "Upload variable font instead"
+            },
+            "title": "Fonts"
+        },
+        "onboarding": {
+            "title": "Onboarding Page"
+        },
+        "onboardingImage": {
+            "actions": {
+                "clearImage": "Clear image",
+                "selectImage": "Select image"
+            },
+            "title": "Onboarding image"
+        },
+        "plyr": {
+            "title": "The Video Player"
+        },
+        "quill": {
+            "title": "The Text Editor"
+        },
+        "table": {
+            "title": "Table Component"
+        },
+        "variables": {
+            "body-color": "Text color",
+            "border-color": "Border color",
+            "border-radius": "Border radius (in pixels)",
+            "btn-disabled-primary": "Primary button disabled background",
+            "btn-hover-primary": "Primary button hover background",
+            "favicon-bg": "Favicon background",
+            "gray-050": "Gray 50",
+            "gray-100": "Gray 100",
+            "gray-500": "Gray 500",
+            "input-disabled-bg": "Input disabled background",
+            "input-disabled-color": "Input disabled text color",
+            "input-focus-border-color": "Input focus border color",
+            "instruction-action-active-bg": "Instruction button active background",
+            "instruction-action-color": "Instruction button text color",
+            "instruction-action-hover-bg": "Instruction button hover background",
+            "instruction-action-hover-color": "Instruction button hover text color",
+            "plyr-range-fill-bg": "Video player progress background",
+            "primary": "Primary",
+            "quill-comment-highlight-active-bg": "Active comment highlight background",
+            "quill-comment-highlight-bg": "Comment highlight background",
+            "quill-comment-highlight-new-bg": "New comment highlight background",
+            "quill-selection-bg": "Editor Selection background",
+            "table-hover-bg": "Table hover background",
+            "text-muted": "Muted text color",
+            "title": "Variables",
+            "tooltip-arrow-color": "Tooltip arrow background",
+            "tooltip-bg": "Tooltip background"
+        },
+        "title": "Pitchy Theme Customizer"
+    },
+    "tips": {
+        "actions": {
+            "copied": "Copied"
+        },
+        "noTips": "No tips available for this subject",
+        "title": "Tips"
+    },
+    "users": {
+        "actions": {
+            "account": "Account",
+            "howPitchyWorks": "How Pitchy works",
+            "logOut": "Log out",
+            "saveNewEmail": "Save new email",
+            "saveNewPassword": "Save new password",
+            "updateDetails": "Update details"
+        },
+        "create": {
+            "body": "Let us know how your buddies call you. And impress us with your most awesome profile picture (or not, as it's optional).",
+            "title": "Profile details"
+        },
+        "edit": {
+            "actions": {
+                "pleaseLogin": "Anyways, would you be so kind as to log in again?"
+            },
+            "email": {
+                "newEmail": "Change your email address",
+                "subtitle": "Your email address",
+                "title": "Email",
+                "yourEmailIs": "Your email address is"
+            },
+            "members": {
+                "nav": "Your Team"
+            },
+            "notLoggedIn": {
+                "body": "You somehow did it.\nIt would appear that you're not logged in yet you've reached the profile page...\nHow did you manage that?",
+                "title": "Well, this is awkward"
+            },
+            "password": {
+                "newPassword": "New password",
+                "oldPassword": "Old password",
+                "title": "Password"
+            },
+            "profile": {
+                "firstName": "First name",
+                "lastName": "Last name",
+                "nav": "Your Profile",
+                "picture": "Profile photo",
+                "title": "Personal Profile"
+            },
+            "team": {
+                "navOrganisation": "Your Organisation",
+                "navTeam": "Your Company"
+            },
+            "terms": {
+                "body": "1. Definitions\n\n1.1 In these general terms and conditions the following terms have the stated meaning:\na) General Terms and Conditions: these general terms and conditions.\nb) Contracted Party: OWOW Projects B.V., Chamber of Commerce number 62932969, as well as its legal successors by universal or particular title, and the natural persons or legal entities affiliated or to be affiliated with it.\nc) Client: any natural person or legal entity who commissions the Contracted Party to deliver goods and/or perform work, which is accepted by the Contracted Party.\nd) Parties: the Contracted Party and the Client jointly.\ne) Agreement: the agreement between the Client and the Contracted Party.\nf) Services: services to be provided and/or work to be performed by or on behalf of the Contracted Party under the Agreement, including the design and development of software (web & mobile apps) (‘Software’).\ng) Goods: the goods to be supplied by or on behalf of the Contracted Party under the Agreement.\n\n1.2 If, in addition to the general part (A), (several) parts of the special part (B) apply to the Agreement, the provisions of the special part prevail in the event of any conflict",
+                "nav": "Terms & Conditions",
+                "title": "General"
+            },
+            "title": "Profile & Settings"
+        },
+        "guest": "Guest"
+    },
+    "videos": {
+        "noVideos": "No videos available for this subject"
+    },
+    "words": {
+        "dashboard": "Dashboard",
+        "duration": "Duration",
+        "focus": "Focus",
+        "minutesShort": "min",
+        "modal": "Modal",
+        "noResults": "No results",
+        "older": "Older",
+        "pitch": "pitch",
+        "showLess": "Show less",
+        "showMore": "Show more",
+        "today": "Today",
+        "toMinute": "{0} min",
+        "words": "words",
+        "xOutOfN": "{0} of {1}"
+    }
+}

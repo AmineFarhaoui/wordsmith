@@ -1,0 +1,11 @@
+{
+    "apiToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0L2F1dGgvbG9naW4iLCJpYXQiOjE2NTQ1OTk3NzcsImV4cCI6MTY1NzE5MTc3NywibmJmIjoxNjU0NTk5Nzc3LCJqdGkiOiIzV05WV2JNZmdrUmVSV055Iiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Ak89PSKsANCRdVj0Io_7r0OMOvHcD46zA4iaenArXPs",
+    "user": {
+        "id": 1,
+        "firstName": "Chaz",
+        "lastName": "Lemke",
+        "fullName": "Chaz Lemke",
+        "email": "mauer95768@owow.io",
+        "roles": []
+    }
+}

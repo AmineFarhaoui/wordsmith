@@ -1,0 +1,65 @@
+<mjml owa="desktop" version="4.5.1">
+    <mj-head>
+        <mj-preview></mj-preview>
+    </mj-head>
+
+    <mj-body background-color="#ffffff">
+        <mj-section background-color="#fef4f4" background-repeat="repeat" border="0px solid #ffffff" full-width="full-width" padding-bottom="50px" padding-left="0px" padding-right="0px" padding-top="50px" padding="50px 0px 50px 0px" text-align="center">
+            <mj-column>
+            <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-top="0px" padding="0px 25px 0px 25px">
+                <h1>
+                    <span style="font-size: 40px; color: #1a1a1a;">
+                        @lang('emails.general_greeting')
+                    </span>
+                </h1>
+            </mj-text>
+
+            <mj-text align="left" color="#55575d" font-family="Arial, sans-serif" font-size="13px" line-height="22px" padding-bottom="0px" padding-left="25px" padding-right="25px" padding-top="0px" padding="0px 25px 0px 25px">
+                <p style="margin: 10px 0;">
+                    <span style="color:#1a1a1a;">
+                        <b style="font-weight: 700;">
+                            <span style="font-size: 20px; font-weight: 700; background-color: rgb(254, 244, 244);">
+                                @lang('emails.email_verification.explanation_text')
+                            </span>
+                        </b>
+                    </span>
+                </p>
+            </mj-text>
+
+            <mj-button align="left" background-color="#f7575f" border-radius="100px" border="0px solid #ffffff" color="#ffffff" font-family="Arial, sans-serif" font-size="16px" font-weight="normal" href="{{ $url }}" inner-padding="15px 25px 15px 25px" padding-bottom="25px" padding-left="25px" padding-right="25px" padding-top="25px" padding="25px 25px 25px 25px" text-decoration="none" text-transform="none" vertical-align="middle">
+                @lang('emails.email_verification.action')
+            </mj-button>
+
+            <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="13px" line-height="24px" padding-bottom="0px" padding-left="25px" padding-right="25px" padding-top="0px" padding="0px 25px 0px 25px">
+                <p style="margin: 10px 0;">
+                    <span style="color:#1a1a1a; font-size:14px;">
+                        @lang('emails.email_verification.no_action_text')
+                    </span>
+                </p>
+            </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="transparent" background-repeat="repeat" border="0px solid #ffffff" full-width="full-width" padding-left="0px" padding-right="0px" padding="20px 0px 20px 0px" text-align="center">
+            <mj-column padding="0">
+                <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="13px" line-height="24px" padding-bottom="0px" padding-top="0px" padding="10px 25px">
+                    <p style="margin: 10px 0;">
+                        <span style="color:#1a1a1a;">
+                            <b style="font-weight:700;">
+                                <span style="font-size: 14px; font-weight: 700;">
+                                    @lang('emails.footer.trouble_clicking_action', [
+                                        'action' => __('emails.email_verification.action'),
+                                    ])<br>
+
+                                    <a href="{{ $url }}" style="color:#bebebe;" target="_blank">
+                                        {{ $url }}
+                                    </a>
+                                </span>
+                            </b>
+                        </span>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
